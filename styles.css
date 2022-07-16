@@ -18,11 +18,11 @@ body {
     user-select: none;
 }
 
-.closed {
+.balloon {
     display: none;
 }
 
-.open {
+.heart {
     display: none;
 }
 

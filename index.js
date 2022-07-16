@@ -1,9 +1,16 @@
-const firstEmoji = document.querySelector('closed');
-const secondEmoji = document.querySelector('open');
+const balloon = document.querySelector('.balloon');
+const heart = document.querySelector('.heart');
 
-firstEmoji.addEventListener('click', () => {
-    if (firstEmoji.classList.contains.closed) {
-        secondEmoji.classList.add('active');
-        firstEmoji.classList.remove('active');
+balloon.addEventListener('click', () => {
+    if (balloon.classList.contains('balloon')) {
+        heart.classList.add('active');
+        balloon.classList.remove('active');
+    }
+ });
+
+ heart.addEventListener('click', () => {
+    if (heart.classList.contains('heart')) {
+        balloon.classList.add('active');
+        heart.classList.remove('active')
     }
  })
